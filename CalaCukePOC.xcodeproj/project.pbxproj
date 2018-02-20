@@ -17,6 +17,7 @@
 		5CA77F9F203C692F00A58E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77F7A203C65AF00A58E7B /* LaunchScreen.storyboard */; };
 		5CA77FA0203C692F00A58E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77F78203C65AF00A58E7B /* Assets.xcassets */; };
 		5CA77FA1203C692F00A58E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77F75203C65AF00A58E7B /* Main.storyboard */; };
+		5CA77FA8203C89BE00A58E7B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA77FA7203C89BE00A58E7B /* CFNetwork.framework */; };
 		77EA8BE8540D5832D60DD830 /* Pods_CalaCukePOC_cal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ED60FE629D945A87616D45 /* Pods_CalaCukePOC_cal.framework */; };
 		B1692DED1F8818467E8C442E /* Pods_CalaCukePOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D87F87A8483125501BB3C9 /* Pods_CalaCukePOC.framework */; };
 /* End PBXBuildFile section */
@@ -33,7 +34,7 @@
 		5CA77F7B203C65AF00A58E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CA77F7D203C65AF00A58E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA77FA5203C692F00A58E7B /* CalaCukePOC-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalaCukePOC-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CA77FA6203C692F00A58E7B /* CalaCukePOC-cal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CalaCukePOC-cal-Info.plist"; path = "/Users/williamarchimede/Documents/iWorkspace/FranceTV/Archi/CalaCukePOC/CalaCukePOC-cal-Info.plist"; sourceTree = "<absolute>"; };
+		5CA77FA7203C89BE00A58E7B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		62477FC470F7B7E9EFA007D1 /* Pods-CalaCukePOC-cal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalaCukePOC-cal.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalaCukePOC-cal/Pods-CalaCukePOC-cal.release.xcconfig"; sourceTree = "<group>"; };
 		D8D87F87A8483125501BB3C9 /* Pods_CalaCukePOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalaCukePOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9ED60FE629D945A87616D45 /* Pods_CalaCukePOC_cal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalaCukePOC_cal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA77FA8203C89BE00A58E7B /* CFNetwork.framework in Frameworks */,
 				77EA8BE8540D5832D60DD830 /* Pods_CalaCukePOC_cal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +64,7 @@
 		3743AE6523666989E2BFC91B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5CA77FA7203C89BE00A58E7B /* CFNetwork.framework */,
 				D8D87F87A8483125501BB3C9 /* Pods_CalaCukePOC.framework */,
 				D9ED60FE629D945A87616D45 /* Pods_CalaCukePOC_cal.framework */,
 			);
@@ -73,7 +76,6 @@
 			children = (
 				5CA77F70203C65AF00A58E7B /* CalaCukePOC */,
 				5CA77F6F203C65AF00A58E7B /* Products */,
-				5CA77FA6203C692F00A58E7B /* CalaCukePOC-cal-Info.plist */,
 				919F157D76BBCE7DCF0F0DF6 /* Pods */,
 				3743AE6523666989E2BFC91B /* Frameworks */,
 			);
@@ -502,9 +504,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VQEZ7Y9U3L;
-				INFOPLIST_FILE = "CalaCukePOC-cal-Info.plist";
+				INFOPLIST_FILE = CalaCukePOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.francetv.CalaCukePOC;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.francetv.CalaCukePOC-cal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,9 +520,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VQEZ7Y9U3L;
-				INFOPLIST_FILE = "CalaCukePOC-cal-Info.plist";
+				INFOPLIST_FILE = CalaCukePOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.francetv.CalaCukePOC;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.francetv.CalaCukePOC-cal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
