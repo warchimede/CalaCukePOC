@@ -20,6 +20,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func didTap(_ sender: Any) {
+        let alert = UIAlertController(
+            title: "Tap",
+            message: "",
+            preferredStyle: .alert
+        )
 
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
+
+        present(alert, animated: true, completion: nil)
+    }
 }
 

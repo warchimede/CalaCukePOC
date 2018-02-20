@@ -12,9 +12,19 @@
 		5CA77F77203C65AF00A58E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77F75203C65AF00A58E7B /* Main.storyboard */; };
 		5CA77F79203C65AF00A58E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77F78203C65AF00A58E7B /* Assets.xcassets */; };
 		5CA77F7C203C65AF00A58E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77F7A203C65AF00A58E7B /* LaunchScreen.storyboard */; };
+		5CA77F9B203C692F00A58E7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA77F73203C65AF00A58E7B /* ViewController.swift */; };
+		5CA77F9C203C692F00A58E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA77F71203C65AF00A58E7B /* AppDelegate.swift */; };
+		5CA77F9F203C692F00A58E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77F7A203C65AF00A58E7B /* LaunchScreen.storyboard */; };
+		5CA77FA0203C692F00A58E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77F78203C65AF00A58E7B /* Assets.xcassets */; };
+		5CA77FA1203C692F00A58E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77F75203C65AF00A58E7B /* Main.storyboard */; };
+		77EA8BE8540D5832D60DD830 /* Pods_CalaCukePOC_cal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ED60FE629D945A87616D45 /* Pods_CalaCukePOC_cal.framework */; };
+		B1692DED1F8818467E8C442E /* Pods_CalaCukePOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D87F87A8483125501BB3C9 /* Pods_CalaCukePOC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1177B7AED57B22A152DD7E5E /* Pods-CalaCukePOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalaCukePOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalaCukePOC/Pods-CalaCukePOC.release.xcconfig"; sourceTree = "<group>"; };
+		307FD3B3EEFACA728ACC1813 /* Pods-CalaCukePOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalaCukePOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalaCukePOC/Pods-CalaCukePOC.debug.xcconfig"; sourceTree = "<group>"; };
+		4048D127BCF31B874A99FD10 /* Pods-CalaCukePOC-cal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalaCukePOC-cal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalaCukePOC-cal/Pods-CalaCukePOC-cal.debug.xcconfig"; sourceTree = "<group>"; };
 		5CA77F6E203C65AF00A58E7B /* CalaCukePOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalaCukePOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA77F71203C65AF00A58E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CA77F73203C65AF00A58E7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,11 @@
 		5CA77F78203C65AF00A58E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CA77F7B203C65AF00A58E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CA77F7D203C65AF00A58E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA77FA5203C692F00A58E7B /* CalaCukePOC-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalaCukePOC-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA77FA6203C692F00A58E7B /* CalaCukePOC-cal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CalaCukePOC-cal-Info.plist"; path = "/Users/williamarchimede/Documents/iWorkspace/FranceTV/Archi/CalaCukePOC/CalaCukePOC-cal-Info.plist"; sourceTree = "<absolute>"; };
+		62477FC470F7B7E9EFA007D1 /* Pods-CalaCukePOC-cal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalaCukePOC-cal.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalaCukePOC-cal/Pods-CalaCukePOC-cal.release.xcconfig"; sourceTree = "<group>"; };
+		D8D87F87A8483125501BB3C9 /* Pods_CalaCukePOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalaCukePOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9ED60FE629D945A87616D45 /* Pods_CalaCukePOC_cal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalaCukePOC_cal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +44,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1692DED1F8818467E8C442E /* Pods_CalaCukePOC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA77F9D203C692F00A58E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EA8BE8540D5832D60DD830 /* Pods_CalaCukePOC_cal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3743AE6523666989E2BFC91B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8D87F87A8483125501BB3C9 /* Pods_CalaCukePOC.framework */,
+				D9ED60FE629D945A87616D45 /* Pods_CalaCukePOC_cal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5CA77F65203C65AF00A58E7B = {
 			isa = PBXGroup;
 			children = (
 				5CA77F70203C65AF00A58E7B /* CalaCukePOC */,
 				5CA77F6F203C65AF00A58E7B /* Products */,
+				5CA77FA6203C692F00A58E7B /* CalaCukePOC-cal-Info.plist */,
+				919F157D76BBCE7DCF0F0DF6 /* Pods */,
+				3743AE6523666989E2BFC91B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				5CA77F6E203C65AF00A58E7B /* CalaCukePOC.app */,
+				5CA77FA5203C692F00A58E7B /* CalaCukePOC-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +101,17 @@
 			path = CalaCukePOC;
 			sourceTree = "<group>";
 		};
+		919F157D76BBCE7DCF0F0DF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				307FD3B3EEFACA728ACC1813 /* Pods-CalaCukePOC.debug.xcconfig */,
+				1177B7AED57B22A152DD7E5E /* Pods-CalaCukePOC.release.xcconfig */,
+				4048D127BCF31B874A99FD10 /* Pods-CalaCukePOC-cal.debug.xcconfig */,
+				62477FC470F7B7E9EFA007D1 /* Pods-CalaCukePOC-cal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CA77F80203C65AF00A58E7B /* Build configuration list for PBXNativeTarget "CalaCukePOC" */;
 			buildPhases = (
+				296C0B7C822B99C1BDD81EBF /* [CP] Check Pods Manifest.lock */,
 				5CA77F6A203C65AF00A58E7B /* Sources */,
 				5CA77F6B203C65AF00A58E7B /* Frameworks */,
 				5CA77F6C203C65AF00A58E7B /* Resources */,
+				45674E37113EFCAB34C3FD3F /* [CP] Embed Pods Frameworks */,
+				8E27BB09769E1E5B1C291D5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -82,6 +133,26 @@
 			name = CalaCukePOC;
 			productName = CalaCukePOC;
 			productReference = 5CA77F6E203C65AF00A58E7B /* CalaCukePOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CA77F99203C692F00A58E7B /* CalaCukePOC-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA77FA2203C692F00A58E7B /* Build configuration list for PBXNativeTarget "CalaCukePOC-cal" */;
+			buildPhases = (
+				F1F7C17040F1B94FB56C9AF4 /* [CP] Check Pods Manifest.lock */,
+				5CA77F9A203C692F00A58E7B /* Sources */,
+				5CA77F9D203C692F00A58E7B /* Frameworks */,
+				5CA77F9E203C692F00A58E7B /* Resources */,
+				97A1C117A20A4080930A9447 /* [CP] Embed Pods Frameworks */,
+				5D4776D03C9CD528906EE439 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalaCukePOC-cal";
+			productName = CalaCukePOC;
+			productReference = 5CA77FA5203C692F00A58E7B /* CalaCukePOC-cal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,6 +167,9 @@
 				TargetAttributes = {
 					5CA77F6D203C65AF00A58E7B = {
 						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5CA77F99203C692F00A58E7B = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -114,6 +188,7 @@
 			projectRoot = "";
 			targets = (
 				5CA77F6D203C65AF00A58E7B /* CalaCukePOC */,
+				5CA77F99203C692F00A58E7B /* CalaCukePOC-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -129,7 +204,116 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CA77F9E203C692F00A58E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA77F9F203C692F00A58E7B /* LaunchScreen.storyboard in Resources */,
+				5CA77FA0203C692F00A58E7B /* Assets.xcassets in Resources */,
+				5CA77FA1203C692F00A58E7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		296C0B7C822B99C1BDD81EBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalaCukePOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45674E37113EFCAB34C3FD3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalaCukePOC/Pods-CalaCukePOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D4776D03C9CD528906EE439 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalaCukePOC-cal/Pods-CalaCukePOC-cal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E27BB09769E1E5B1C291D5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalaCukePOC/Pods-CalaCukePOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A1C117A20A4080930A9447 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalaCukePOC-cal/Pods-CalaCukePOC-cal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F7C17040F1B94FB56C9AF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalaCukePOC-cal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CA77F6A203C65AF00A58E7B /* Sources */ = {
@@ -138,6 +322,15 @@
 			files = (
 				5CA77F74203C65AF00A58E7B /* ViewController.swift in Sources */,
 				5CA77F72203C65AF00A58E7B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA77F9A203C692F00A58E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA77F9B203C692F00A58E7B /* ViewController.swift in Sources */,
+				5CA77F9C203C692F00A58E7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +465,7 @@
 		};
 		5CA77F81203C65AF00A58E7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307FD3B3EEFACA728ACC1813 /* Pods-CalaCukePOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,11 +481,44 @@
 		};
 		5CA77F82203C65AF00A58E7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1177B7AED57B22A152DD7E5E /* Pods-CalaCukePOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VQEZ7Y9U3L;
 				INFOPLIST_FILE = CalaCukePOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.francetv.CalaCukePOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CA77FA3203C692F00A58E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4048D127BCF31B874A99FD10 /* Pods-CalaCukePOC-cal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQEZ7Y9U3L;
+				INFOPLIST_FILE = "CalaCukePOC-cal-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.francetv.CalaCukePOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CA77FA4203C692F00A58E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62477FC470F7B7E9EFA007D1 /* Pods-CalaCukePOC-cal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQEZ7Y9U3L;
+				INFOPLIST_FILE = "CalaCukePOC-cal-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.francetv.CalaCukePOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -317,6 +544,15 @@
 			buildConfigurations = (
 				5CA77F81203C65AF00A58E7B /* Debug */,
 				5CA77F82203C65AF00A58E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA77FA2203C692F00A58E7B /* Build configuration list for PBXNativeTarget "CalaCukePOC-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA77FA3203C692F00A58E7B /* Debug */,
+				5CA77FA4203C692F00A58E7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
