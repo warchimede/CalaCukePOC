@@ -6,4 +6,4 @@ Feature: Get information
   Scenario: Tap on the button shows popup
     Given I am on the welcome screen
     When I touch the button
-    Then I see the text "Tap"
+    Then I see the success message "Calabash Success !"

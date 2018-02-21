@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     @IBAction func didTap(_ sender: Any) {
         let alert = UIAlertController(
-            title: "Tap",
+            title: "Calabash Success !",
             message: "",
             preferredStyle: .alert
         )
