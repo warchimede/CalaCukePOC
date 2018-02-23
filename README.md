@@ -1,7 +1,7 @@
 # CalaCukePOC [Calabash](https://github.com/calabash/calabash-ios)🍆 [Cucumber](https://cucumber.io/)🥒
 
 ## The Project
-The goal of the project is to demonstrate the use of [cucumber](https://cucumber.io/)🥒 and [calabash](https://github.com/calabash/calabash-ios)🍆 on a very simple iOS app.
+The goal of the project is to demonstrate the use of [cucumber](https://cucumber.io/)🥒 and [calabash](https://github.com/calabash/calabash-ios)🍆 for functional testing on a very simple iOS app.
 
 ## Setup
 ### Install [Bundler](https://bundler.io/) 📦
