@@ -24,7 +24,7 @@ The `bundle install` command will then install them.
 To use any of the `pod` or `cucumber` commands, prepend it by `bundle exec`.
 
 ### Create a specific `-cal` target for Calabash use 🍆
-Follow this tutorial: https://github.com/calabash/calabash-ios/wiki/Tutorial%3A--Creating-a-cal-Target
+Follow this tutorial **until the end of step 3**: https://github.com/calabash/calabash-ios/wiki/Tutorial%3A--Creating-a-cal-Target
 
 ### Create a Podfile 🍫
 In your project's root directory, create a file called **Podfile**, with the following content:
@@ -56,6 +56,7 @@ This command will create the `features` directory containing:
 - the `support` directory, with more ruby scripts that make the whole automation work.
 
 ### Dry run 🤖
+Build and run your project with the `-cal` scheme. You should see some logs in the console telling you that the calabash server has started.
 Now you can execute `bundle exec cucumber` for an end-to-end check that the iOS simulator is launched and that the sample test runs and passes.
 
 ## First real test ☝🏽
